@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  background-color: blanchedalmond;
+
+  padding: 0.5rem 2rem;
+}
+
+.header h1 {
+  color: salmon;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.navigation ul {
+  list-style-type: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: salmon;
+
+  font-size: 1.5rem;
+}

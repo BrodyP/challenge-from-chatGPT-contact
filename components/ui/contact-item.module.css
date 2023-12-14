@@ -1,0 +1,13 @@
+.card {
+  border: solid salmon 2px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 4rem auto 1rem auto;
+
+  padding-left: 2rem;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.09);
+}
+
+.detail {
+  margin-left: 2rem;
+}

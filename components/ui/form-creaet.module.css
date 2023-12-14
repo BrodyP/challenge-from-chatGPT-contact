@@ -1,0 +1,55 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+
+  margin: 3rem auto 0 auto;
+
+  width: 70%;
+  border: solid salmon 1px;
+  border-radius: 10px;
+}
+
+.control {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  gap: 1rem;
+
+  align-items: start;
+
+  font-size: 1.5rem;
+  padding: 2rem 5rem;
+}
+
+.control input,
+.control textarea {
+  padding: 1rem;
+  width: 100%;
+  border: solid salmon 1px;
+}
+
+.control input :focus,
+.control textarea :focus {
+  border: solid blueviolet 1px;
+}
+
+.btn {
+  font-size: 1.2rem;
+
+  align-self: center;
+  background-color: salmon;
+  padding: 1rem 4rem;
+  border: none;
+  border-radius: 10px;
+
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: sandybrown;
+  cursor: pointer;
+}
+
+.btn:active{
+    background-color: orange;
+}
